@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "manager", "manager\manager.csproj", "{5839FA74-8963-42C0-A13D-90E9ABDA38BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C647D5E1-28B6-4BB5-AB00-53F8C54A5160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5839FA74-8963-42C0-A13D-90E9ABDA38BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5839FA74-8963-42C0-A13D-90E9ABDA38BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5839FA74-8963-42C0-A13D-90E9ABDA38BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5839FA74-8963-42C0-A13D-90E9ABDA38BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C647D5E1-28B6-4BB5-AB00-53F8C54A5160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C647D5E1-28B6-4BB5-AB00-53F8C54A5160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C647D5E1-28B6-4BB5-AB00-53F8C54A5160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C647D5E1-28B6-4BB5-AB00-53F8C54A5160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

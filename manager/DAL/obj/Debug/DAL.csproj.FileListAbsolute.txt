@@ -1,0 +1,4 @@
+D:\C#Test\sunweiwei\manager\DAL\bin\Debug\DAL.dll
+D:\C#Test\sunweiwei\manager\DAL\bin\Debug\DAL.pdb
+D:\C#Test\sunweiwei\manager\DAL\obj\Debug\DAL.dll
+D:\C#Test\sunweiwei\manager\DAL\obj\Debug\DAL.pdb
