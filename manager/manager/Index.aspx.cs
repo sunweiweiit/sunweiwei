@@ -11,9 +11,11 @@ namespace manager
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string name = Request["name"];
-            lname.Text = name;
-            Session["logname"] = lname.Text;
+            //string name = Request["name"];
+            //lname.Text = name;
+            //Session["logname"] = lname.Text;
+            lname.Text = Session["name"].ToString();
+
         }
     }
 }

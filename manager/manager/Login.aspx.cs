@@ -18,14 +18,7 @@ namespace manager
         string str = ConfigurationManager.AppSettings["conn01"].ToString();
         protected void Page_Load(object sender, EventArgs e)
         {
-            //账号输入
-            txtName.Attributes.Add("Value", "请输入用户名");
-            txtName.Attributes.Add("OnFocus", "if(this.value=='请输入用户名') {this.value=''}");
-            txtName.Attributes.Add("OnBlur", "if(this.value==''){this.value='请输入用户名'}");
-            //密码输入
-            txtPwd.Attributes.Add("Value", "请输入密码");
-            txtPwd.Attributes.Add("OnFocus", "if(this.value=='请输入密码'){this.value=''}");
-            txtPwd.Attributes.Add("OnBlur", "if(this.value==''){this.value='请输入密码'}");
+           
            
         }
 
@@ -65,8 +58,9 @@ namespace manager
                 }
 
                 string name = this.txtName.Text;
-                Response.Redirect("Index.aspx?Name=" + name);
-
+                //Response.Redirect("Index.aspx?Name=" + name);
+                Session["name"] = txtName.Text;
+                Response.Redirect("Index.aspx");
               
             }
             else
@@ -77,7 +71,7 @@ namespace manager
                 Label1.Text = "用户名或密码错误";
                 return;
             }
-            //Session["name"] = txtName.Text;
+            
 
 
         }

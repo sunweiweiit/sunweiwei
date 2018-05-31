@@ -11,9 +11,7 @@ namespace manager
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
-            
-            
+            lname.Text = Session["name"].ToString();
         }
     }
 }

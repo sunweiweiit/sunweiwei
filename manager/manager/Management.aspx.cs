@@ -10,9 +10,8 @@ namespace manager
     public partial class Management : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            
-            
+        {           
+            lname.Text = Session["name"].ToString();
         }
     }
 }

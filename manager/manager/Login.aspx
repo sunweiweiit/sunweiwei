@@ -19,8 +19,8 @@
 		</div>
 		<br/>
 		<div class="login">           
-            <asp:TextBox ID="txtName" runat="server" CssClass="login1"></asp:TextBox><br/>
-            <asp:TextBox ID="txtPwd" runat="server" CssClass="login2"></asp:TextBox><br/>
+            <asp:TextBox ID="txtName" runat="server" CssClass="login1" placeholder="请输入用户名"></asp:TextBox><br/>
+            <asp:TextBox ID="txtPwd" runat="server" CssClass="login2" TextMode="Password" placeholder="请输入密码"></asp:TextBox><br/>
             <asp:Button ID="btnlogin" runat="server" Text="登录" CssClass="login3" OnClick="btnlogin_Click"/><br/>
             <asp:Label ID="Label1" runat="server" ForeColor="Red" Visible="True" Font-Size="XX-Large"></asp:Label>
 		</div>
