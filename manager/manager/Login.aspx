@@ -18,10 +18,10 @@
 			<div><strong>后台登录</strong></div>
 		</div>
 		<br/>
-		<div class="login">
+		<div class="login">           
             <asp:TextBox ID="txtName" runat="server" CssClass="login1"></asp:TextBox><br/>
             <asp:TextBox ID="txtPwd" runat="server" CssClass="login2"></asp:TextBox><br/>
-            <asp:Button ID="btnlogin" runat="server" Text="Login" CssClass="login3" OnClick="btnlogin_Click"/><br/>
+            <asp:Button ID="btnlogin" runat="server" Text="登录" CssClass="login3" OnClick="btnlogin_Click"/><br/>
             <asp:Label ID="Label1" runat="server" ForeColor="Red" Visible="True" Font-Size="XX-Large"></asp:Label>
 		</div>
   

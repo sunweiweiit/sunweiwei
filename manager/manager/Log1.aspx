@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="manager.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Log1.aspx.cs" Inherits="manager.Log1" %>
 
 <!DOCTYPE html>
 <html>
@@ -57,7 +57,7 @@
   <div class="layui-body" id="content">
     <!-- 内容主体区域 -->      
     <div style="height:637px;">        
-            <IFRAME name="ad" src="Manager.aspx" frameBorder="0" width="100%" scrolling="no"  height="100%"></IFRAME>
+            <IFRAME name="ad" src="Log.aspx" frameBorder="0" width="100%" scrolling="no"  height="100%"></IFRAME>
     </div>
   </div>
   

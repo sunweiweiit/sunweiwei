@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="manager.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Management.aspx.cs" Inherits="manager.Management" %>
 
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,7 @@
           <a class="" href="javascript:;">系统用户</a>
           <dl class="layui-nav-child">
             <dd><a href="Index.aspx">管理员管理</a></dd>
-            <dd><a href="Management.aspx">角色管理</a></dd>
+            <dd><a href="Management">角色管理</a></dd>
             <dd><a href="Log1.aspx">管理日志</a></dd>            
           </dl>
         </li>
@@ -57,7 +57,7 @@
   <div class="layui-body" id="content">
     <!-- 内容主体区域 -->      
     <div style="height:637px;">        
-            <IFRAME name="ad" src="Manager.aspx" frameBorder="0" width="100%" scrolling="no"  height="100%"></IFRAME>
+            <IFRAME name="ad" src="role.aspx" frameBorder="0" width="100%" scrolling="no"  height="100%"></IFRAME>
     </div>
   </div>
   

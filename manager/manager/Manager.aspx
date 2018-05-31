@@ -47,28 +47,28 @@
                     <ItemStyle Width="100px" />
                 </asp:TemplateField>  
                 <asp:BoundField DataField="user_id" HeaderText="用户编号" >
-                <ItemStyle Width="150px" />
+                <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="user_name" HeaderText="用户名">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="real_name" HeaderText="真实姓名">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                  <asp:BoundField DataField="user_key" HeaderText="密码">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="user_role" HeaderText="用户角色">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="phone" HeaderText="电话">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="add_time" HeaderText="添加时间">
-                    <ItemStyle Width="150px" />
+                    <ItemStyle Width="200px" />
                 </asp:BoundField>
                 <asp:BoundField DataField="type" HeaderText="状态">
-                    <ItemStyle Width="100px" />
+                    <ItemStyle Width="150px" />
                 </asp:BoundField>
                   <asp:TemplateField HeaderText="操作">
                     <ItemTemplate>
@@ -80,9 +80,9 @@
                 </asp:TemplateField>
             </Columns>
             <FooterStyle BackColor="White" ForeColor="#000066" />
-            <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+            <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" Font-Size="X-Large" Height="50px" />
             <PagerStyle BackColor="White" ForeColor="#000066" HorizontalAlign="Left" />
-            <RowStyle ForeColor="#000066" HorizontalAlign="Center" />
+            <RowStyle ForeColor="#000066" HorizontalAlign="Center" Font-Size="Large" Height="30px" />
             <SelectedRowStyle BackColor="#669999" Font-Bold="True" ForeColor="White" />
             <SortedAscendingCellStyle BackColor="#F1F1F1" />
             <SortedAscendingHeaderStyle BackColor="#007DBB" />

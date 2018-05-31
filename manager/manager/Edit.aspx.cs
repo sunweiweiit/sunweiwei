@@ -48,7 +48,7 @@ namespace manager
                 //string image = File1.Value;
                 string uphone = tel.Text;
                 string uemail = mail.Text;
-                string sql = "update Manager_management set user_id = '" + uid + "',user_key = '" + userkey + "',real_name = '" + real + "',phone ='" + uphone + "',email='" + uemail + "' where user_name = '" + username + "' ";
+                string sql = "update Manager_management set user_id = '" + userid + "',user_key = '" + userkey + "',real_name = '" + real + "',phone ='" + uphone + "',email='" + uemail + "' where user_name = '" + username + "' ";
                 SqlParameter[] parameters = { new SqlParameter("@user_id", userid), new SqlParameter("@user_key", userkey), new SqlParameter("@user_name", username), new SqlParameter("@user_role", userrole), new SqlParameter("@real_name", real), new SqlParameter("@phone", uphone), new SqlParameter("@email", uemail), new SqlParameter("@type", utype) };
                 using (SqlConnection conn = new SqlConnection(str))
                 {
