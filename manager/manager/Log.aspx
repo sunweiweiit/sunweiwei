@@ -20,7 +20,7 @@
         </div>
         <br /><br /> 
         <div>             
-            <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" HorizontalAlign="Center" AllowPaging="True" PageSize="5" OnPageIndexChanging="GridView1_PageIndexChanging">
+            <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" HorizontalAlign="Center" AllowPaging="True" OnPageIndexChanging="GridView1_PageIndexChanging">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:BoundField HeaderText="用户名" DataField="user_name">
@@ -49,15 +49,15 @@
                 <SortedAscendingHeaderStyle BackColor="#6D95E1" />
                 <SortedDescendingCellStyle BackColor="#E9EBEF" />
                 <SortedDescendingHeaderStyle BackColor="#4870BE" />
-
-                
-               
+                               
             </asp:GridView>
         </div><br /><br />
-        
+                                
+                           
       
        <script src="layui/layui.js"></script>
         <script>
+          
             layui.use('laydate', function () {
                 var laydate = layui.laydate;
                 //执行一个laydate实例
@@ -69,6 +69,7 @@
                 });
             });
         </script>
+      
      
     </form>
 </body>
